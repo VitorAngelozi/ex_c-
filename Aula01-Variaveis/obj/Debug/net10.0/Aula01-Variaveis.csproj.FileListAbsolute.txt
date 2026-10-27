@@ -1,0 +1,14 @@
+C:\Users\vitor\Documents\c#\Aula01-Variaveis\bin\Debug\net10.0\Aula01-Variaveis.exe
+C:\Users\vitor\Documents\c#\Aula01-Variaveis\bin\Debug\net10.0\Aula01-Variaveis.deps.json
+C:\Users\vitor\Documents\c#\Aula01-Variaveis\bin\Debug\net10.0\Aula01-Variaveis.runtimeconfig.json
+C:\Users\vitor\Documents\c#\Aula01-Variaveis\bin\Debug\net10.0\Aula01-Variaveis.dll
+C:\Users\vitor\Documents\c#\Aula01-Variaveis\bin\Debug\net10.0\Aula01-Variaveis.pdb
+C:\Users\vitor\Documents\c#\Aula01-Variaveis\obj\Debug\net10.0\Aula01-Variaveis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor\Documents\c#\Aula01-Variaveis\obj\Debug\net10.0\Aula01-Variaveis.AssemblyInfoInputs.cache
+C:\Users\vitor\Documents\c#\Aula01-Variaveis\obj\Debug\net10.0\Aula01-Variaveis.AssemblyInfo.cs
+C:\Users\vitor\Documents\c#\Aula01-Variaveis\obj\Debug\net10.0\Aula01-Variaveis.csproj.CoreCompileInputs.cache
+C:\Users\vitor\Documents\c#\Aula01-Variaveis\obj\Debug\net10.0\Aula01-Variaveis.dll
+C:\Users\vitor\Documents\c#\Aula01-Variaveis\obj\Debug\net10.0\refint\Aula01-Variaveis.dll
+C:\Users\vitor\Documents\c#\Aula01-Variaveis\obj\Debug\net10.0\Aula01-Variaveis.pdb
+C:\Users\vitor\Documents\c#\Aula01-Variaveis\obj\Debug\net10.0\Aula01-Variaveis.genruntimeconfig.cache
+C:\Users\vitor\Documents\c#\Aula01-Variaveis\obj\Debug\net10.0\ref\Aula01-Variaveis.dll

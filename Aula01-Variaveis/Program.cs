@@ -23,6 +23,10 @@ string curso = "Engenharia de Software";
 double notaFinal = 8.5;
 bool aprovado = true;
 
-Console.Write("Nome: " +nome + "\nIdade: " + idade +
+Console.WriteLine("Nome: " +nome + "\nIdade: " + idade +
 "\nCurso: " + curso + "\nNota final: " + notaFinal + "\nAprovado: " + aprovado
 );
+
+double nota1 = 7.5, nota2 = 9;
+double media = (nota1 + nota2) / 2;
+Console.WriteLine($"Nome: {nome}\nNota 1: {nota1}\nNota 2: {nota2}\nMedia: {media}");

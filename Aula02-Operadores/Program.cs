@@ -315,6 +315,7 @@ REGRAS:
 
 ==================================================
 */
+/*
 int idade;
 bool possuiAutorizacao;
 idade = 25;
@@ -327,3 +328,4 @@ else
 {
    Console.WriteLine("Resultado: acesso negado");
 }
+*/

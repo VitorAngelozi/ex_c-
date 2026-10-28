@@ -79,7 +79,7 @@ nomeAluno = Console.ReadLine();
 Console.WriteLine("Digite a nota 1");
 string nota1Texto = Console.ReadLine();
 bool conversao = double.TryParse(nota1Texto, out nota1);
-if (!conversao)
+if (!conversao || nota1 < 0 || nota1 > 10)
 {
     Console.WriteLine("Valor invalido!");
     return;
@@ -87,7 +87,7 @@ if (!conversao)
 Console.WriteLine("Digite a nota 2");
 string nota2Texto = Console.ReadLine();
 conversao = double.TryParse(nota2Texto, out nota2);
-if (!conversao)
+if (!conversao || nota2 < 0 || nota2 > 10)
 {
     Console.WriteLine("Valor invalido!");
     return;

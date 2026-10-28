@@ -165,3 +165,93 @@ else
    Console.WriteLine("Numero nao valido!");
 }
 */
+
+/*
+==================================================
+AULA 02 — OPERADORES
+EXERCÍCIO 04 — CALCULADORA ARITMÉTICA
+==================================================
+
+OBJETIVO:
+Praticar operadores matemáticos, conversão
+de tipos e entrada de dados.
+
+REQUISITOS:
+
+1. Solicite dois números inteiros ao usuário.
+
+2. Utilize int.TryParse() para converter
+   os valores recebidos.
+
+3. Se algum valor for inválido, apresente
+   uma mensagem de erro.
+
+4. Se ambos forem válidos, calcule:
+
+   - Soma
+   - Subtração
+   - Multiplicação
+   - Divisão
+   - Resto da divisão
+
+5. Exiba os resultados no console.
+
+EXEMPLO:
+
+Digite o primeiro número: 10
+Digite o segundo número: 3
+
+Soma: 13
+Subtração: 7
+Multiplicação: 30
+Divisão: 3.3333...
+Resto: 1
+
+REGRAS:
+
+- Utilize int.TryParse().
+- Utilize if/else.
+- Utilize interpolação de strings.
+- A divisão deve preservar as casas decimais.
+- Considere o que acontece se o segundo
+  número for zero.
+
+DESAFIO EXTRA:
+
+Descubra como converter um dos operandos
+para double antes de realizar a divisão.
+
+==================================================
+*/
+
+Console.WriteLine("Digite seu primeiro numero");
+string num1Texto = Console.ReadLine()??"Invalido";
+bool num1bool = int.TryParse(num1Texto, out int num1);
+if (!num1bool)
+{
+   Console.WriteLine("Numero invalido!");
+   return;
+}
+Console.WriteLine("Digite seu segundo numero");
+string num2Texto = Console.ReadLine()??"Invalido";
+bool num2bool = int.TryParse(num2Texto, out int num2);
+if (!num2bool)
+{
+   Console.WriteLine("Numero invalido");
+   return;
+}
+int soma = num1 + num2;
+int subtracao = num1-num2;
+int multiplicacao = num1 * num2;
+var divisao = "nao eh possivel dividir por 0";
+var resto = "nao eh possivel dividir por 0";
+if (num2 != 0) 
+{
+double resultadoDivisao = (double)num1 / num2;
+divisao = Convert.ToString(resultadoDivisao);
+int resultadoResto= num1 % num2;
+resto = Convert.ToString(resultadoResto);
+
+}
+
+Console.WriteLine($"Soma: {soma}\nSubtracao: {subtracao}\nMultiplicacao: {multiplicacao}\nDivisao: {divisao}\nResto divisao: {resto}");

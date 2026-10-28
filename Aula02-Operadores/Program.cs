@@ -223,7 +223,7 @@ para double antes de realizar a divisão.
 
 ==================================================
 */
-
+/*
 Console.WriteLine("Digite seu primeiro numero");
 string num1Texto = Console.ReadLine()??"Invalido";
 bool num1bool = int.TryParse(num1Texto, out int num1);
@@ -255,3 +255,75 @@ resto = Convert.ToString(resultadoResto);
 }
 
 Console.WriteLine($"Soma: {soma}\nSubtracao: {subtracao}\nMultiplicacao: {multiplicacao}\nDivisao: {divisao}\nResto divisao: {resto}");
+*/
+/*
+==================================================
+AULA 02 — OPERADORES
+EXERCÍCIO 05 — VALIDAÇÃO DE ACESSO
+==================================================
+
+OBJETIVO:
+Praticar operadores lógicos e condicionais.
+
+CENÁRIO:
+
+Um sistema permite o acesso somente quando
+o usuário atende a duas condições:
+
+- Possui 18 anos ou mais.
+- Possui autorização de acesso.
+
+REQUISITOS:
+
+1. Crie uma variável int chamada idade.
+
+2. Crie uma variável bool chamada
+   possuiAutorizacao.
+
+3. Utilize um if para verificar se
+   o usuário atende às duas condições.
+
+4. Caso atenda, exiba:
+   "Acesso permitido"
+
+5. Caso contrário, exiba:
+   "Acesso negado"
+
+TESTES:
+
+Caso 1:
+idade = 20
+possuiAutorizacao = true
+Resultado: Acesso permitido
+
+Caso 2:
+idade = 16
+possuiAutorizacao = true
+Resultado: Acesso negado
+
+Caso 3:
+idade = 25
+possuiAutorizacao = false
+Resultado: Acesso negado
+
+REGRAS:
+
+- Utilize o operador lógico adequado.
+- Não utilize múltiplos ifs.
+- Não utilize Console.ReadLine() ainda.
+- Faça os três testes alterando as variáveis.
+
+==================================================
+*/
+int idade;
+bool possuiAutorizacao;
+idade = 25;
+possuiAutorizacao = false;
+if(idade >= 18 && possuiAutorizacao)
+{
+   Console.WriteLine("Resultado: acesso permitido");
+}
+else
+{
+   Console.WriteLine("Resultado: acesso negado");
+}

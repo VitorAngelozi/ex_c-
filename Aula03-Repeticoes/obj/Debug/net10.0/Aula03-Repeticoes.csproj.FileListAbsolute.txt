@@ -13,3 +13,11 @@ C:\Users\vitor.hugo\Documents\ex_c-\Aula03-Repeticoes\obj\Debug\net10.0\refint\A
 C:\Users\vitor.hugo\Documents\ex_c-\Aula03-Repeticoes\obj\Debug\net10.0\Aula03-Repeticoes.pdb
 C:\Users\vitor.hugo\Documents\ex_c-\Aula03-Repeticoes\obj\Debug\net10.0\Aula03-Repeticoes.genruntimeconfig.cache
 C:\Users\vitor.hugo\Documents\ex_c-\Aula03-Repeticoes\obj\Debug\net10.0\ref\Aula03-Repeticoes.dll
+C:\Users\vitor\Documents\c#\Aula03-Repeticoes\obj\Debug\net10.0\Aula03-Repeticoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor\Documents\c#\Aula03-Repeticoes\obj\Debug\net10.0\Aula03-Repeticoes.AssemblyInfoInputs.cache
+C:\Users\vitor\Documents\c#\Aula03-Repeticoes\obj\Debug\net10.0\Aula03-Repeticoes.AssemblyInfo.cs
+C:\Users\vitor\Documents\c#\Aula03-Repeticoes\obj\Debug\net10.0\Aula03-Repeticoes.csproj.CoreCompileInputs.cache
+C:\Users\vitor\Documents\c#\Aula03-Repeticoes\obj\Debug\net10.0\Aula03-Repeticoes.sourcelink.json
+C:\Users\vitor\Documents\c#\Aula03-Repeticoes\obj\Debug\net10.0\Aula03-Repeticoes.dll
+C:\Users\vitor\Documents\c#\Aula03-Repeticoes\obj\Debug\net10.0\refint\Aula03-Repeticoes.dll
+C:\Users\vitor\Documents\c#\Aula03-Repeticoes\obj\Debug\net10.0\Aula03-Repeticoes.pdb

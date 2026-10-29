@@ -8,24 +8,32 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\vitor.hugo\\.nuget\\packages\\": {}
+    "C:\\Users\\vitor\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vitor.hugo\\Documents\\ex_c-\\Aula03-Repeticoes\\Aula03-Repeticoes.csproj",
+      "projectUniqueName": "c:\\Users\\vitor\\Documents\\c#\\Aula03-Repeticoes\\Aula03-Repeticoes.csproj",
       "projectName": "Aula03-Repeticoes",
-      "projectPath": "C:\\Users\\vitor.hugo\\Documents\\ex_c-\\Aula03-Repeticoes\\Aula03-Repeticoes.csproj",
-      "packagesPath": "C:\\Users\\vitor.hugo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vitor.hugo\\Documents\\ex_c-\\Aula03-Repeticoes\\obj\\",
+      "projectPath": "c:\\Users\\vitor\\Documents\\c#\\Aula03-Repeticoes\\Aula03-Repeticoes.csproj",
+      "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\vitor\\Documents\\c#\\Aula03-Repeticoes\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\vitor.hugo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

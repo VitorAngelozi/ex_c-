@@ -61,11 +61,17 @@ int senha = 1234;
 Console.WriteLine("Digite a senha");
 string inputText = Console.ReadLine();
 bool conversao = int.TryParse(inputText, out int inputSenha);
-
+int tentativas = 1;
 do{
+    if (senha == inputSenha){
+        break;
+    }else{
     Console.WriteLine("Senha incorreta. Digite novamente!");
     inputText = Console.ReadLine();
     conversao = int.TryParse(inputText, out inputSenha);
+    tentativas++;
+    }
 }
 while(senha != inputSenha);
 Console.WriteLine("Acesso autorizado!");
+Console.WriteLine($"contagem tentivas {tentativas}");

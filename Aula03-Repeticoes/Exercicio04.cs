@@ -61,9 +61,6 @@ Console.Write("Digite um número: ");
 string numTexto = Console.ReadLine();
 bool conversao = int.TryParse(numTexto, out int num);
 
-string numTexto = Console.ReadLine();
-bool conversao = int.TryParse(numTexto, out int num);
-
 while(num < 1 || num > 10 || !conversao)
 {
     Console.WriteLine("Número inválido.");
@@ -75,3 +72,4 @@ while(num < 1 || num > 10 || !conversao)
 
 }
 Console.WriteLine($"numero aceito: {num}");
+
